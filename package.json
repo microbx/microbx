@@ -8,7 +8,7 @@
         "test": "lerna run test",
         "prepare": "lerna run prepare",
         "clean": "rimraf packages/**/lib",
-        "prepublish": "lerna publish --silent --skip-git"
+        "publish": "lerna publish --skip-git"
     },
     "publishConfig": {
         "registry": "http://localhost:4873"
