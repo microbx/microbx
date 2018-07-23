@@ -11,12 +11,6 @@
         "precommit": "pretty-quick --staged",
         "tslint-check": "tslint-config-prettier-check ./tslint.json"
     },
-    "lint-staged": {
-        "*.ts": [
-            "prettier --parser typescript --write",
-            "git add"
-        ]
-    },
     "prettier": {
         "semi": false,
         "singleQuote": true,
