@@ -1,0 +1,11 @@
+{
+    "name": "@microbx/cli",
+    "version": "1.0.2",
+    "main": "dist/main.js",
+    "scripts": {
+        "prepare": "tsc -p tsconfig.build.json"
+    },
+    "dependencies": {
+        "@microbx/core": "^1.0.2"
+    }
+}

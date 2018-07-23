@@ -4,14 +4,9 @@
         "packages/*"
     ],
     "scripts": {
-        "bootstrap": "lerna bootstrap",
         "test": "lerna run test",
         "prepare": "lerna run prepare",
-        "clean": "rimraf packages/**/lib",
-        "publish": "lerna publish"
-    },
-    "publishConfig": {
-        "registry": "http://localhost:4873"
+        "clean": "rm -rf packages/**/dist"
     },
     "prettier": {
         "semi": false,

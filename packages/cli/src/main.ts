@@ -1,4 +1,4 @@
-import { awesomeFn } from '@quramy/x-core'
+import { awesomeFn } from '@microbx/core'
 
 export function cli() {
     awesomeFn()
