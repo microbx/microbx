@@ -1,13 +1,13 @@
 {
     "name": "@quramy/x-cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "lib/main.js",
     "scripts": {
         "test": "ava",
         "prepare": "tsc -p tsconfig.build.json"
     },
     "dependencies": {
-        "@quramy/x-core": "^1.0.1"
+        "@quramy/x-core": "^1.0.2"
     },
     "ava": {
         "files": [
