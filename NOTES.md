@@ -31,6 +31,7 @@
 -   [github-username](https://www.npmjs.com/package/github-username) - Get a GitHub username from an email address.
 -   [parse-github-repo-url](https://www.npmjs.com/package/parse-github-repo-url) - Parse a GitHub URL for user/project@version.
 -   [@octokit/rest](https://www.npmjs.com/package/@octokit/rest) - GitHub REST API client for Node.js.
+-   [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) - Cosmiconfig searches for and loads configuration for your program. Features smart defaults based on conventional expectations in the JavaScript ecosystem. But it's also flexible enough to search wherever you'd like to search, and load whatever you'd like to load.
 
 ## Files / Users
 
@@ -41,7 +42,7 @@
 -   [fs-extra](https://www.npmjs.com/package/fs-extra) - adds file system methods that aren't included in the native fs module and adds promise support to the fs methods. It also uses graceful-fs to prevent EMFILE errors. It should be a drop in replacement for fs..
 -   [replace-in-file](https://www.npmjs.com/package/replace-in-file) - A simple utility to quickly replace text in one or more files or globs. Works synchronously or asynchronously with either promises or callbacks. Make a single replacement or multiple replacements at once.
 
-## HTTP Clients
+## HTTP Clients / Fetchers
 
 -   [axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js.
 -   [gh-got](https://www.npmjs.com/package/gh-got) - Convenience wrapper for got to interact with the GitHub API.

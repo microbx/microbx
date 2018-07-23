@@ -2455,7 +2455,7 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-ignore@^3.3.5:
+ignore@^3.3.5, ignore@^3.3.7:
   version "3.3.10"
   resolved "http://localhost:4873/ignore/-/ignore-3.3.10.tgz#0a97fb876986e8081c631160f8f9f389157f0043"
 
@@ -3910,6 +3910,10 @@ moment@^2.6.0:
   version "2.22.2"
   resolved "http://localhost:4873/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
+mri@^1.1.0:
+  version "1.1.1"
+  resolved "http://localhost:4873/mri/-/mri-1.1.1.tgz#85aa26d3daeeeedf80dc5984af95cc5ca5cad9f1"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "http://localhost:4873/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -4463,6 +4467,16 @@ pretty-format@^23.2.0:
   dependencies:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
+
+pretty-quick@^1.6.0:
+  version "1.6.0"
+  resolved "http://localhost:4873/pretty-quick/-/pretty-quick-1.6.0.tgz#afc3591eb5c4cf37614a305d489a8a40e57c9258"
+  dependencies:
+    chalk "^2.3.0"
+    execa "^0.8.0"
+    find-up "^2.1.0"
+    ignore "^3.3.7"
+    mri "^1.1.0"
 
 private@^0.1.8:
   version "0.1.8"
