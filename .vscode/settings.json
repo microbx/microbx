@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/.editorconfig": true,
+        "**/tsconfig.json": false,
+        "**/tslint.json": false,
+        "**/yarn.lock": true,
+        "**/README.md": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
